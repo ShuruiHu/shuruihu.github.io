@@ -26,7 +26,7 @@
   const social = $("social-links");
   social.appendChild(linkButton({ label: "Email", url: `mailto:${data.profile.email}` }, true));
   data.profile.socials.forEach((item) => social.appendChild(linkButton(item)));
-  social.appendChild(linkButton({ label: "CV", url: data.profile.cv }));
+  if (data.profile.cv) social.appendChild(linkButton({ label: "CV", url: data.profile.cv }));
 
   const about = $("about-copy");
   data.about.forEach((paragraph) => {
