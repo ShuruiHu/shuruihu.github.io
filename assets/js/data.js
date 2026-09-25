@@ -9,7 +9,7 @@ window.SITE_DATA = {
     location: "New York, USA",
     status: "Expected M.S. · Dec 2027",
     email: "sh4908@columbia.edu",
-    cv: "assets/Shurui_Hu_CV.pdf",
+    cv: null,
     socials: [
       { label: "Google Scholar", url: "https://scholar.google.com/citations?user=8LGTPpIAAAAJ&hl=en" },
       { label: "LinkedIn", url: "https://www.linkedin.com/in/shurui-hu-204709434/" },
