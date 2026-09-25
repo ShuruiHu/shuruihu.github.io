@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Shurui Hu — M.S. student in Computer Engineering at Columbia University. Research interests in edge AI, embedded systems, multimodal sensing, and computer vision." />
+  <meta name="author" content="Shurui Hu" />
+  <meta name="theme-color" content="#f6f7f9" />
+  <meta property="og:title" content="Shurui Hu | Academic Homepage" />
+  <meta property="og:description" content="Research, publications, projects, and experience of Shurui Hu." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shuruihu.github.io/" />
+  <title>Shurui Hu | Academic Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Shurui Hu home">SH</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" id="hero-kicker"></p>
+          <h1 id="hero-name"></h1>
+          <p class="hero-title" id="hero-title"></p>
+          <p class="hero-bio" id="hero-bio"></p>
+          <div class="social-row" id="social-links"></div>
+        </div>
+        <div class="portrait-card" aria-label="Profile photo">
+          <img id="profile-photo" alt="Portrait of Shurui Hu" />
+          <div class="portrait-meta">
+            <span id="location"></span>
+            <span id="status"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-rule">
+      <div class="container two-col">
+        <div>
+          <p class="section-label">About</p>
+          <h2>Building intelligent systems from sensing to deployment.</h2>
+        </div>
+        <div class="prose" id="about-copy"></div>
+      </div>
+    </section>
+
+    <section id="research" class="section section-rule">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Research</p>
+            <h2>Selected research</h2>
+          </div>
+          <p class="section-note">Current and recent work across multimodal perception, efficient AI, and embedded deployment.</p>
+        </div>
+        <div class="card-grid" id="research-list"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="section section-rule">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Publications</p>
+            <h2>Selected publications</h2>
+          </div>
+          <a class="text-link" id="scholar-inline" target="_blank" rel="noreferrer">Google Scholar ↗</a>
+        </div>
+        <div class="publication-list" id="publication-list"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-rule">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Projects</p>
+            <h2>Selected systems & projects</h2>
+          </div>
+          <p class="section-note">Visuals are placeholders and can be replaced by project figures later.</p>
+        </div>
+        <div class="project-grid" id="project-list"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-rule">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Experience</p>
+            <h2>Education & experience</h2>
+          </div>
+        </div>
+        <div class="timeline" id="experience-list"></div>
+      </div>
+    </section>
+
+    <section class="section section-rule">
+      <div class="container contact-panel">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Interested in AI systems, multimodal sensing, and embedded intelligence.</h2>
+        </div>
+        <div class="contact-actions" id="contact-actions"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <span>© <span id="year"></span> Shurui Hu</span>
+      <span>Built as a lightweight static site on GitHub Pages.</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
